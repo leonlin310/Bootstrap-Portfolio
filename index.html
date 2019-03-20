@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Week 2 Assignment Bootstrap Portfolio</title>
+</head>
+
+<header>
+
+    <!-- The Below Navbar Toolbar to float the elements to the right was found on Stack overflow:
+    https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacts</a>
+            </ul>
+        </div>
+    </nav>
+
+
+</header>
+
+<body>
+<br>
+<!-- I need three rows. One for the "About Me" // Picture and paragraphs, then the Copyright footer -->
+
+<!-- Always remember to use an open div tag! I closed it before and nothing was 'contained' in it -->
+<div class="container">
+
+    <!-- About me row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                    <div class="card-body">
+                      <h2 class="card-title">About Me</h5>
+                      <p class="card-text">A Noobies Exploration into Bootstrap</p>
+                    </div>
+            </div>
+         </div>
+    </div>
+
+    <br>
+
+
+    <!-- Picture and Paragraphs row -->
+    <!-- "Card" taken from: https://getbootstrap.com/docs/4.3/components/card/ -->
+<div class="row">
+
+<!--         
+            <div class="col-lg-2">
+                    <img class="img img-thumbnail" src="../Bootstrap-Portfolio/assets/images/Profile Pic.png">
+                  </div> -->
+
+        
+        <!-- The below is the non working card -->
+             <div class="col-lg-4">
+                <div class="card" >
+                    <img src="../Bootstrap-Portfolio/assets/images/Profile Pic.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Here I am, awkwardly smiling in this cool looking tunnel!</p>
+                    </div>
+                </div>
+            </div> 
+
+
+    <div class="col-lg-8">
+        <p>I currently work in the Financial sector, specifically in the private wealth management field. My job is
+                to build portfolio's based on the financial profile of each client. We can build aggressive, income
+                generating, speculative, and defensive portfolios which are dependent on risk factors and age. These
+                portfolios will be diversified by investing in multiple asset classes assets such as SMA's, Mutual
+                Funds, ETF's, Primary and Secondary Offerings, Structured Products, and Alternative Investments. I'm
+                doing this bootcamp to expand my skillset, and to possibly jump into a new career or have this as a
+                freelance job. </p>
+            
+        <p>        I currently work in the Financial sector, specifically in the private wealth management field. My job is
+                to build portfolio's based on the financial profile of each client. We can build aggressive, income
+                generating, speculative, and defensive portfolios which are dependent on risk factors and age. These
+                portfolios will be diversified by investing in multiple asset classes assets such as SMA's, Mutual
+                Funds, ETF's, Primary and Secondary Offerings, Structured Products, and Alternative Investments. I'm
+                doing this bootcamp to expand my skillset, and to possibly jump into a new career or have this as a
+                freelance job.
+        </p> 
+        <p>   
+                I currently work in the Financial sector, specifically in the private wealth management field. My job is
+                to build portfolio's based on the financial profile of each client. We can build aggressive, income
+                generating, speculative, and defensive portfolios which are dependent on risk factors and age. These
+                portfolios will be diversified by investing in multiple asset classes assets such as SMA's, Mutual
+                Funds, ETF's, Primary and Secondary Offerings, Structured Products, and Alternative Investments. I'm
+                doing this bootcamp to expand my skillset, and to possibly jump into a new career or have this as a
+                freelance job.</p>
+
+    </div>
+
+ </div>
+<!-- Footer row -->
+<!-- Footer code taken from: https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
+<div class="footer-copyright text-center py-3"> Copyright ©
+       
+      </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
