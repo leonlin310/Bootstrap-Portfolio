@@ -11,36 +11,128 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Week 2 Assignment Bootstrap Portfolio</title>
+
+    <style>
+    h4 {
+        text-align: center;
+    }
+
+ 
+    
+    </style>
 </head>
 
 <header>
 
-    <!-- The Below Navbar Toolbar to float the elements to the right was found on Stack overflow:
-    https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items -->
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
-            </ul>
-        </div>
-    </nav>
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Leon Lin</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="smmdlg.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                          </li>
+                 
+                  </ul>
+                </div>
+              </nav>
+    
 
 </header>
 
 <body>
 
-<h2>HELLO SANDY NOT MY LOVE</h2>
+ <div class="container">
+
+     <!-- Portfolio row -->
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                 <div class="card">
+                         <div class="card-body">
+                             <h2 class="card-title">Portfolio</h5>
+                             <p class="card-text">Here's my list of stuff that doesn't work!</p>
+                        </div>
+                </div>
+            </div>
+         </div>
+            
+         
+         <br>
+
+    <!-- Card Rows -->
+                
+         <div class="row">
+             <!-- Hangman -->
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                    <div class="card" style="width: 18rem;">
+                            <img src="assets/images/pic1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> <h4>Hangman</h4>
+                            </div>
+                          </div>
+            </div>
+
+              <!-- RPG Game -->
+              <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                    <div class="card" style="width: 18rem;">
+                            <img src="assets/images/pic2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> <h4>RPG Game</h4>
+                            </div>
+                          </div>
+            </div>
+
+              <!-- Trivia Game -->
+              <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                    <div class="card" style="width: 18rem;">
+                            <img src="assets/images/pic3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> <h4>Trivia Game</h4>
+                            </div>
+                          </div>
+            </div>
+
+              <!-- Rutgers Info Widget -->
+              <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                    <div class="card" style="width: 18rem;">
+                            <img src="assets/images/pic4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> <h4>Rutgers Info Widget</h4>
+                            </div>
+                          </div>
+            </div>
+
+              <!-- Rock Paper Scissors -->
+              <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                    <div class="card" style="width: 18rem;">
+                            <img src="assets/images/pic5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text"> <h4>Rock Paper Scissors</h4>
+                            </div>
+                          </div>
+            </div>
+         </div>
+
+
+
+
+
+    <!-- Footer row -->
+    <!-- Footer code taken from: https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
+        <div class="footer-copyright text-center py-3"> Copyright ©
+       
+    </div>
+
+ </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

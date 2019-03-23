@@ -15,32 +15,84 @@
 
 <header>
 
-    <!-- The Below Navbar Toolbar to float the elements to the right was found on Stack overflow:
-    https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items -->
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
-            </ul>
-        </div>
-    </nav>
-
-
+ 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Leon Lin</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="smmdlg.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                          </li>
+                 
+                  </ul>
+                </div>
+              </nav>
+      
 </header>
 
 <body>
+<br>
+        <div class="container">
+            
+                <!-- Contact row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="card">
+                                <div class="card-body">
+                                  <h2 class="card-title">Contact</h5>
+                                  <p class="card-text">Please leave any tips or feedback!</p>
+                                </div>
+                        </div>
+                     </div>
+                </div>
+            
+                <br>
+                <!-- Form -->
+                <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Name</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Batman">
+                          <small id="emailHelp" class="form-text text-muted">We promise to sell your information to big data companies. </small>
+                        </div>
+                        <div class="form-group">
+                         <label for="exampleInputEmail1">E-mail</label>
+                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SupermanSucks@aol.com">
+                         <small id="emailHelp" class="form-text text-muted"> </small>
+                         </div>
+                        <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Comments</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
 
-    <h1> HELLO CINDY MY LOOOOOOVE</h1>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer row -->
+<!-- Footer code taken from: https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
+<div class="footer-copyright text-center py-3"> Copyright ©
+       
+    </div>
+
+        </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
